@@ -1,0 +1,13 @@
+/* Main
+----------------------------------------------- */
+article {
+  background: #563651;
+  color: #ffffff;
+}
+article a {
+  color: #fdb94c;
+}
+article a:hover {
+  background: #fdb94c;
+  color: #563651;
+}

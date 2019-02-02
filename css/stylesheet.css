@@ -1,0 +1,242 @@
+
+/* Base
+----------------------------------------------- */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: black url('../img/beautiful-blue-stars-fill.jpg');
+  height: 100%;
+}
+a {
+  text-decoration:none;
+}
+@media only screen and (min-width:481px) {
+  header, main {
+    margin: 0 10px;
+  }
+}
+@media screen and (min-width:1025px) {
+  header, main {
+    margin: 0 auto;
+    width: 1001px;
+  }
+}
+
+/* Header
+----------------------------------------------- */
+header {
+  color: #fdb94c;
+  font-family: 'Liberty D X80', serif;
+  text-align: right;
+  text-shadow:0 0 50px #fdb94c;
+}
+header em {
+  font-family: 'Zinjaro X60', serif;
+  font-style: normal;
+}
+header h1 {
+  float: right;
+  max-width: 6em;
+  line-height: 1em;
+}
+header h2 {
+  margin-top: 10px;
+  font-size: 40%;
+}
+@media (max-width:320px) {
+  header {
+    font-size: 32px;
+    margin-right: 2px;
+    min-height: 73px;
+  }
+  header h1 {
+    margin-top: 51px;
+  }
+}
+@media (min-width:321px) and (max-width:480px) {
+  header {
+    font-size: 32px;
+    margin-right: 4px;
+    min-height: 41px;
+  }
+}
+@media (min-width:481px) and (max-width:768px) {
+  header {
+    font-size: 42px;
+    margin-right: 6px;
+    min-height: 82px;
+  }
+}
+@media (min-width:769px) and (max-width:1024px){
+  header {
+    font-size: 52px;
+    min-height: 82px;
+  }
+}
+@media (min-width:1025px) {
+  header {
+    font-size: 52px;
+    min-height: 102px;
+  }
+}
+
+/* Main
+----------------------------------------------- */
+main h3 {
+  color: #fdb94c;
+  font-family: 'Liberty D X80', serif;
+  font-size: 26px;
+  text-align: center;
+  padding: 2px 1em;
+  margin: 0 0 0.8em 0;
+}
+main h3 em {
+  font-style: normal;
+  font-family: 'Zinjaro X60', serif;
+}
+@media (min-width:769px) {
+  main h3 {
+    font-size: 30px;
+  }
+}
+article {
+  clear: both;
+  position: relative;
+  background: #293768;
+  color: #ffffff;
+  border-radius: 10px;
+  width: auto;
+  padding: 0.1em 1em 0.5em 1em;
+  margin: 10px 0;
+}
+article p {
+  line-height: 1.4em;
+  margin: 1em 0;
+}
+article p.intro {
+}
+article span[lang] {
+  font-style: italic;
+}
+article a {
+  color: #fdb94c;
+  font-weight: bold;
+  font-size: 90%;
+}
+article a:hover {
+  background: #fdb94c;
+  color: #293768;
+}
+article img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+article img.izda {
+  float: left;
+  margin: 1em 1em 1em 0;
+  max-width: 50%;
+}
+
+article ul.social {
+  margin: 1em 0 0 0;
+  padding: 0;
+  text-align: right;
+}
+article ul.social li {
+  margin: 0 5px;
+  display: inline-block;
+}
+article ul.social li a:hover {
+  background: transparent;
+}
+article h4 {
+  color: #fdb94c;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+@media (max-width:320px) {
+  article h4 {
+    clear: both;
+    text-align: left;
+  }
+  article ul.social {
+    margin: 1em 0 1em 0;
+    text-align: left;
+  }
+  article ul.social li {
+    margin: 5px 0;
+    display: block;
+  }
+}
+
+article ul.tiendas li {
+  float:left;
+  width:100%;
+  font-size:smaller;
+  margin: .8em 0;
+}
+article ul.tiendas li a {
+  font-size:larger;
+  font-weight: normal;
+}
+@media (min-width:769px) {
+  article ul.tiendas li {
+    width:33%
+  }
+}
+@media (min-width:481px) and (max-width:768px) {
+  article ul.tiendas li {
+    width:50%
+  }
+}
+article .nota {
+  clear:both;
+}
+
+article .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+article .video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer
+---------------------------------------------- */
+main {
+  padding-bottom: 1px;
+}
+footer {
+  clear:both;
+  padding-top: 1.5em;
+}
+footer .social {
+  position: relative;
+  left: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+footer ul {
+  list-style: none;
+  position: relative;
+  left: -50%;
+}
+footer ul li {
+  float: left;
+}
+@media (max-width:480px) {
+  footer ul li {
+    margin: 0 5px;
+  }
+}
+@media (min-width:481px) {
+  footer ul li {
+    margin: 0 15px;
+  }
+}

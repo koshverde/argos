@@ -1,0 +1,63 @@
+
+/* Base
+----------------------------------------------- */
+body {
+  background: black url('../img/beautiful-blue-stars-fill.jpg');
+}
+
+/* Header
+----------------------------------------------- */
+@media (max-width:320px) {
+  header {
+    background: transparent url('../img/ojos-200.jpg') no-repeat center 32px;
+  }
+}
+@media (min-width:321px) and (max-width:480px) {
+  header {
+    background: transparent url('../img/ojos-200.jpg') no-repeat left top;
+  }
+}
+@media (min-width:481px) and (max-width:768px) {
+  header {
+    background: transparent url('../img/ojos-300.jpg') no-repeat left top;
+  }
+}
+@media (min-width:769px) and (max-width:1024px){
+  header {
+    background: transparent url('../img/ojos-400.jpg') no-repeat left top;
+  }
+}
+@media (min-width:1025px) {
+  header {
+    background: transparent url('../img/ojos-500-a.jpg') no-repeat left top;
+  }
+}
+
+/* Main
+----------------------------------------------- */
+article {
+  background: #293768;
+  color: #ffffff;
+}
+article a {
+  color: #fdb94c;
+}
+article a:hover {
+  background: #fdb94c;
+  color: #293768;
+}
+
+/* Footer
+---------------------------------------------- */
+@media (max-width:480px) {
+  footer {
+    background: url('../img/pie-1024.gif') no-repeat center bottom;
+    height: 126px;
+  }
+}
+@media (min-width:481px) {
+  footer {
+    background: url('../img/pie.gif') no-repeat center bottom;
+    height: 167px;
+  }
+}
