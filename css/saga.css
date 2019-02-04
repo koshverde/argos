@@ -1,0 +1,33 @@
+/* Main
+----------------------------------------------- */
+article {
+  background: #293768;
+  color: #ffffff;
+}
+article a {
+  color: #fdb94c;
+}
+article a:hover {
+  background: #fdb94c;
+  color: #293768;
+}
+
+#portada-klatuu, #portada-drek {
+    float: left;
+}
+
+#portada-klatuu {
+    margin: 1em 1em 1em 0em
+}
+#portada-drek {
+    margin: 3em 1em 0 -3em
+}
+
+@media (min-width:769px) {
+  ul.libros li {
+  }
+}
+@media (min-width:481px) and (max-width:768px) {
+  ul.libros li {
+  }
+}
