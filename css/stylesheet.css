@@ -110,20 +110,28 @@ article {
 article p {
   line-height: 1.4em;
   margin: 1em 0;
+  font-family: 'Exo', Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.2em;
+  line-height: 1.6em;
 }
 article p.intro {
+  margin: 1em 0 2em 0;
 }
 article span[lang] {
   font-style: italic;
 }
 article a {
   color: #fdb94c;
-  font-weight: bold;
-  font-size: 90%;
 }
 article a:hover {
   background: #fdb94c;
   color: #293768;
+}
+article p a {
+  font-family: 'Exo', Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1em;
 }
 article img {
   max-width: 100%;
@@ -193,6 +201,7 @@ article .nota {
 }
 
 article .video-container {
+  clear:both;
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
