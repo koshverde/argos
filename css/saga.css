@@ -1,7 +1,7 @@
 /* Main
 ----------------------------------------------- */
 article {
-  background: #293768;
+  background: #293748;
   color: #ffffff;
 }
 article a {
@@ -10,6 +10,13 @@ article a {
 article a:hover {
   background: #fdb94c;
   color: #293768;
+}
+
+#portadas {
+    float:left;
+}
+#portadas a:hover {
+  background: transparent;    
 }
 
 #portada-klatuu, #portada-drek {

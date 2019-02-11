@@ -5,39 +5,6 @@ body {
   background: black url('../img/beautiful-blue-stars-fill.jpg');
 }
 
-/* Header
------------------------------------------------ */
-header h1 {
-  float: right;
-  max-width: 6em;
-  line-height: 1em;
-}
-
-@media (max-width:320px) {
-  header {
-    background: transparent url('../img/ojos-200.jpg') no-repeat center 32px;
-  }
-}
-@media (min-width:321px) and (max-width:480px) {
-  header {
-    background: transparent url('../img/ojos-200.jpg') no-repeat left top;
-  }
-}
-@media (min-width:481px) and (max-width:768px) {
-  header {
-    background: transparent url('../img/ojos-300.jpg') no-repeat left top;
-  }
-}
-@media (min-width:769px) and (max-width:1024px){
-  header {
-    background: transparent url('../img/ojos-400.jpg') no-repeat left top;
-  }
-}
-@media (min-width:1025px) {
-  header {
-    background: transparent url('../img/ojos-500-a.jpg') no-repeat left top;
-  }
-}
 
 /* Main
 ----------------------------------------------- */
