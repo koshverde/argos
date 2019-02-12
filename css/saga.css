@@ -1,17 +1,5 @@
 /* Main
 ----------------------------------------------- */
-article {
-  background: #293748;
-  color: #ffffff;
-}
-article a {
-  color: #fdb94c;
-}
-article a:hover {
-  background: #fdb94c;
-  color: #293768;
-}
-
 #portadas {
     float:left;
 }

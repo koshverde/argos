@@ -100,7 +100,7 @@ main h3 em {
 article {
   clear: both;
   position: relative;
-  background: transparent;
+  background: #3f2e12;
   color: #ffffff;
   border-radius: 10px;
   width: auto;
@@ -126,7 +126,7 @@ article a {
 }
 article a:hover {
   background: #fdb94c;
-  color: #293768;
+  color: #3f2e12;
 }
 article p a {
   font-family: 'Exo', Arial, sans-serif;
