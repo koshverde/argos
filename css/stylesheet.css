@@ -2,7 +2,7 @@
 /* Base
 ----------------------------------------------- */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Exo', Arial, sans-serif;
   background: black url('../img/starfield-background.png');
   height: 100%;
 }
@@ -75,6 +75,41 @@ header h2 {
   }
 }
 
+
+/* Nav
+----------------------------------------------- */
+nav {
+    padding: 0;
+    float: left;
+    position: relative;
+    margin: 10px 0 0 0;
+    left:50%;
+}
+nav ul {
+    float: left;
+    position: relative;
+    right:50%;
+}
+nav li {
+    float: left;
+    margin: 0 5px;
+}
+nav li a {
+  color: #fdb94c;
+  background: #3f2e12;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  transition: 0.5s;
+}
+nav a:hover {
+  color: #3f2e12;
+  background: #fdb94c;
+}
+
+
 /* Main
 ----------------------------------------------- */
 main h3 {
@@ -141,7 +176,6 @@ article {
 article p {
   line-height: 1.4em;
   margin: 1em 0;
-  font-family: 'Exo', Arial, sans-serif;
   font-weight: 200;
   letter-spacing: 0.2em;
   line-height: 1.6em;
