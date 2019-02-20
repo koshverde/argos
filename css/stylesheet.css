@@ -199,7 +199,7 @@ article p {
   line-height: 1.4em;
   margin: 1em 0;
   font-weight: 200;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   line-height: 1.6em;
 }
 article p.intro {
@@ -216,9 +216,7 @@ article a:hover {
   color: #3f2e12;
 }
 article p a {
-  font-family: 'Exo', Arial, sans-serif;
   font-weight: 400;
-  letter-spacing: 0.1em;
 }
 article img {
   max-width: 100%;
@@ -287,14 +285,14 @@ article .nota {
   clear:both;
 }
 
-article .video-container {
+.video-container {
   clear:both;
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-article .video-container iframe {
+.video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
