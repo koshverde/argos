@@ -8,7 +8,7 @@ body {
 
 /* Main
 ----------------------------------------------- */
-article {
+article, nav li a {
   background: #293768;
 }
 article a:hover {
