@@ -19,14 +19,9 @@
 }
 
 @media (min-width:769px) {
-  ul.libros li {
-  }
 }
 @media (min-width:481px) and (max-width:768px) {
-  ul.libros li {
+  #portada-drek {
+    margin: 120px 1em 0 -190px
   }
-}
-
-#autor {
-    text-align: right;
 }
