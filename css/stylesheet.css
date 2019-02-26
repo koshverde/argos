@@ -5,6 +5,7 @@ body {
   font-family: 'Exo', Arial, sans-serif;
   background: black url('../img/starfield-background.png');
   height: 100%;
+  font-weight:200;
 }
 a {
   text-decoration:none;
@@ -236,7 +237,7 @@ article ul.social li a:hover {
 article h4 {
   color: #fdb94c;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 400;
   text-align: right;
 }
 @media (max-width:320px) {
@@ -253,7 +254,7 @@ article ul.tiendas li {
 }
 article ul.tiendas li a {
   font-size:larger;
-  font-weight: normal;
+  font-weight: 400;
 }
 @media (min-width:769px) {
   article ul.tiendas li {
