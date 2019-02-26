@@ -159,33 +159,28 @@ main h3 em {
 }
 
 @media (max-width:320px) {
-    #cover, #biopic {
-        float: none;
-        margin: 1em auto;
-        max-width: 100%;
-    }
-    #cover {
-        width:213px;
-    }
+  #cover, #biopic {
+    float: none;
+    margin: 1em auto;
+    max-width: 100%;
+  }
+  #cover {
+    width:213px;
+  }
 }
-
 @media (min-width:321px) and (max-width:480px) {
-    #cover, #biopic {
-        max-width: 50%;
-    }
+  #cover, #biopic {
+    max-width: 50%;
+  }
 }
 @media (min-width:481px) and (max-width:768px) {
-    #cover, #biopic {
-        max-width: 50%;
-    }
+  #cover, #biopic {
+    max-width: 50%;
+  }
 }
 @media (min-width:769px) and (max-width:1024px){
-    #cover {
-    }
 }
 @media (min-width:1025px) {
-    #cover {
-    }
 }
 
 
