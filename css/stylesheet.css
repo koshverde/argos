@@ -34,13 +34,13 @@ header em {
   font-style: normal;
 }
 header h1 {
-  float: right;
-  line-height: 1em;
+  font-size: 40%;
   margin-top: 10px;
 }
 header h2 {
+  float: right;
+  line-height: 1em;
   margin-top: 10px;
-  font-size: 40%;
 }
 @media (max-width:320px) {
   header {
