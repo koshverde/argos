@@ -141,8 +141,7 @@ main h3 {
   font-family: 'Liberty D X80', serif;
   font-size: 26px;
   text-align: center;
-  padding: 2px 1em;
-  margin: 0 0 0.8em 0;
+  padding: 0.5em 1em;
 }
 main h3 em {
   font-style: normal;
