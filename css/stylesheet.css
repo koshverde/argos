@@ -105,14 +105,10 @@ nav a:hover {
 }
 @media (min-width:481px) {
   nav {
-    float: left;
-    position: relative;
-    left:50%;
+    text-align: center;
   }
   nav ul {
-    float: left;
-    position: relative;
-    right:50%;
+    display: inline-block;
   }
   nav li {
     float: left;
