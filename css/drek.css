@@ -1,8 +1,41 @@
 /* Base
 ----------------------------------------------- */
 body {
-  background: black url('../img/fondo_pasillo.jpg');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
+@media (min-width:1921px) {
+  body {
+    background-image: url('../img/fondo_pasillo_3544.jpg');    
+  }
+}
+@media (min-width:1681px) and (max-width:1920px){
+  body {
+    background-image: url('../img/fondo_pasillo_1920.jpg');
+  }
+}
+@media (min-width:1025px) and (max-width:1680px){
+  body {
+    background-image: url('../img/fondo_pasillo_1680.jpg');
+  }
+}
+@media (min-width:769px) and (max-width:1024px){
+  body {
+    background-image: url('../img/fondo_pasillo_1024.jpg');
+  }
+}
+@media (min-width:481px) and (max-width:768px){
+  body {
+    background-image: url('../img/fondo_pasillo_768.jpg');
+  }
+}
+@media (max-width:480px) {
+  body {
+    background-image: url('../img/fondo_pasillo_480.jpg');
+  }
+}
+
 
 /* Main
 ----------------------------------------------- */
